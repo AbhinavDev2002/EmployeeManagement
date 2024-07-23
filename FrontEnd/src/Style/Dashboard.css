@@ -1,0 +1,16 @@
+body {
+    background-color: #f7f7f7;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.welcome-page{
+    margin-left: 15rem;
+    padding: 3rem;
+    height: 100%;
+    color: black;
+    justify-content: center;
+  }

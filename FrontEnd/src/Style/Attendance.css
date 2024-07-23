@@ -1,0 +1,85 @@
+/* General styles for the Attendance component */
+.attendance {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+  
+.attendance h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+  
+  /* Calendar styles */
+.react-calendar {
+    width: 100%;
+    border: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+  
+.react-calendar__navigation button {
+    color: #6f48eb;
+    min-width: 44px;
+    background: none;
+    font-size: 16px;
+    margin-top: 8px;
+}
+  
+.react-calendar__tile {
+    max-width: 100%;
+    padding: 10px 6.6667px;
+    background: none;
+    text-align: center;
+    line-height: 16px;
+}
+  
+.react-calendar__tile--active {
+    background: #6f48eb;
+    color: white;
+}
+  
+.react-calendar__tile--now {
+    background: #e6e6e6;
+}
+  
+  /* Attendance-specific styles */
+.attendance-tile {
+    position: relative;
+    padding: 5px;
+    border-radius: 50%;
+    font-size: 14px;
+}
+  
+.attendance-tile.present {
+    background-color: #4caf50; /* Green */
+    color: white;
+}
+  
+.attendance-tile.absent {
+    background-color: #f44336; /* Red */
+    color: white;
+}
+  
+.attendance-tile.leave {
+    background-color: #ff9800; /* Orange */
+    color: white;
+}
+  
+.attendance-tile.half_day {
+    background-color: #bee305; /* Light Blue */
+    color: white;
+}
+  
+.attendance-tile.not-found {
+    background-color: #e0e0e0; /* Grey */
+    color: black;
+}
+  
+  /* Tile content styling */
+.react-calendar__tile p {
+    margin: 0;
+    font-size: 12px;
+    font-weight: bold;
+}
+  

@@ -1,0 +1,51 @@
+
+.sidebar {
+    /* background-color: rgb(10, 61, 76); */
+    background: linear-gradient(to right, #6a11cb, #2575fc);
+    width: 16rem;
+    position: relative;
+    height: 100%;
+  }
+  .sidebar-container {
+    color: white;
+    font-size: 1.6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem 0;
+    font-weight: bolder;
+  }
+  .link {
+    color: white;
+    margin: 3rem;
+    text-decoration: none;
+    font-size: 1.1rem;
+    display: flex;
+    gap: 1rem;
+  
+  }
+  .link:hover {
+    border-right-color: white;
+    color: #cccccc;
+    text-decoration: underline;
+  }
+  .brand a:hover {
+    border-right-color: white;
+    color: #cccccc;
+    text-decoration: underline;
+  }
+  .links li {
+    border-right: 0.3 rem solid transparent;
+    
+    list-style-type: none;
+    transition: 0.3s ease-in-out;
+    border: 1px solid #F5F5F5;
+  }
+  .links li:hover {
+    border-right-color: black;
+    color: black;
+  }
+  .links .active {
+    border-right: 0.3rem solid white;
+  }
+  

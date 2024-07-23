@@ -1,0 +1,62 @@
+/* @import '../theme.css'; */
+
+.outer-message-container{
+    border: 2px solid #333; /* Solid border with color #333 */
+    border-radius: 10px; /* Rounded corners */
+    padding: 20px; /* Padding to give space inside the border */
+    background-color: #f0f0f0; /* Background color */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Optional: Adding a shadow for depth */
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+
+}
+.message__container {
+    background-color: var(--mc-background);
+    box-shadow: var(--box-shadow);
+    width:35rem;
+    padding: 1rem;
+    margin: 0.5rem;
+    border-radius: 1rem;
+}
+.message__row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.submit-button {
+    align-self: flex-end;
+    background-color: var(--form-i-text);
+    color: var(--form-i-background);
+    margin: 1rem;
+    font-size: 1.3rem;
+    font-weight: 700;
+    border: 0;
+    padding: 0.3rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    border: 2px solid #333;
+    border-radius: 0.5rem;
+    
+    transition: transform 0.1s;
+}
+
+.message__title {
+    color: var(--mc-title);
+}
+.message__author {
+    color: var(--mc-author);
+    font-style: italic;
+}
+.message__body {
+    color: var(--mc-body);
+}
+.message__date {
+    color: var(--mc-date);
+}
+
+/* Responsive */
+@media (max-width: 700px) {
+    .message__container {
+        width: 80%;
+    }
+}

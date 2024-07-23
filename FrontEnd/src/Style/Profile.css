@@ -1,0 +1,53 @@
+.profile-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.profile-picture {
+    width: 150px; /* Adjust the size as needed */
+    height: 150px; /* Ensure the height matches the width for a perfect circle */
+    border-radius: 50%; /* Make the image circular */
+    border: 3px solid #fff; /* White border around the image */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow effect */
+    object-fit: cover; /* Ensures the image covers the entire container without stretching */
+    transition: transform 0.3s ease; /* Smooth transition effect */
+}
+
+
+.profile-picture:hover {
+    transform: scale(1.05); /* Slightly enlarge the image on hover */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* Enhance shadow on hover */
+}
+
+
+.profile-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.profile-header h1 {
+    font-size: 24px;
+    margin: 0;
+}
+
+.profile-info {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+
+.profile-details {
+    margin: 10%;
+}
+
+.profile-bio h2 {
+    margin-top: 0;
+}
+
+.profile-bio p {
+    margin-bottom: 10px;
+}

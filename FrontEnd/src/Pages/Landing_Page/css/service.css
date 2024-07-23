@@ -1,0 +1,51 @@
+#services {
+    padding: 60px 0;
+    background: linear-gradient(to right, #6a11cb, #2575fc);
+    color: white;
+  }
+  
+  #services .section-title {
+    margin-bottom: 50px;
+  }
+  
+  #services .section-title h2 {
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 10px;
+  }
+  
+  #services .section-title p {
+    font-size: 18px;
+    color: rgba(255, 255, 255, 0.7);
+    margin-bottom: 0;
+  }
+  
+  #services .col-md-4 {
+    margin-bottom: 30px;
+  }
+  
+  #services .col-md-4 i {
+    font-size: 50px;
+    color: white;
+    margin-bottom: 20px;
+  }
+  
+  #services .service-desc {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.1);
+  }
+  
+  #services .service-desc h3 {
+    font-size: 22px;
+    font-weight: 700;
+    margin-bottom: 10px;
+  }
+  
+  #services .service-desc p {
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.8);
+    margin-bottom: 0;
+  }
+  

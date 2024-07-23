@@ -1,0 +1,79 @@
+/* VenueCard.css */
+.venue-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    width: 100%;
+    max-width: 300px;
+    margin: 10px;
+    transition: box-shadow 0.3s, transform 0.3s;
+}
+  
+.venue-card:hover {
+    box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+    transform: translateY(-5px);
+}
+  
+.card-image {
+    position: relative;
+}
+  
+.card-image img {
+    width: 100%;
+    height: auto;
+}
+  
+.featured-badge {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background: #d0021b;
+    color: #fff;
+    padding: 5px 10px;
+    font-size: 12px;
+    border-radius: 4px;
+}
+  
+.card-details {
+    padding: 15px;
+}
+  
+.card-details h2 {
+    margin: 0 0 10px;
+    font-size: 18px;
+}
+  
+.card-details p {
+    margin: 0 0 5px;
+    color: #777;
+}
+  
+.card-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    border-top: 1px solid #ddd;
+}
+  
+.price {
+    color: #d0021b;
+    font-weight: bold;
+}
+  
+.book-now {
+    background: #d0021b;
+    color: #fff;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background 0.3s, transform 0.3s;
+}
+  
+.book-now:hover {
+    background: #a00116;
+    transform: translateY(-3px);
+}
+  
